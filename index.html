@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <title>Dashboard | Althraa</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="user__menu">
+        <nav
+          class="navbar navbar-expand-lg navbar-light user__menu-main"
+        >
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="logo__img"
+              srcset="images/logo/logo.png 1x, images/logo/logo@2x.png 2x"
+              alt="Althraa Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse user__menu-lists"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                  <svg class="aicon">
+                    <use xlink:href="images/sprite.svg#2"></use>
+                  </svg>
+                  Homepage <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="current-state.html">
+                  <svg class="aicon">
+                    <use xlink:href="images/sprite.svg#1"></use>
+                  </svg>
+                  Current State</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="aicon">
+                    <use xlink:href="images/sprite.svg#3"></use>
+                  </svg>
+                  Potential State</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="aicon">
+                    <use xlink:href="images/sprite.svg#4"></use>
+                  </svg>
+                  Questionnaire</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="aicon">
+                    <use xlink:href="images/sprite.svg#5"></use>
+                  </svg>
+                  Partners</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link user-link" href="#">
+                  <img
+                    class="user__dp"
+                    srcset="images/users/ali.png 1x, images/users/ali@2x.png 2x"
+                    alt="User Profile"
+                  />
+                  Ali Alshehri</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="aicon">
+                    <use xlink:href="images/sprite.svg#6"></use>
+                  </svg>
+                  Settings</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="content">
+        <div class="container">
+          <h2 class="user__intro">Hi there Ali!</h2>
+          <div class="updateBox">
+            <h2 class="updateBox__h2">Any uptades on your side?</h2>
+            <h4 class="updateBox__h4">
+              You should update your questionnaire regularly.
+            </h4>
+            <div class="updateBox__action">
+              <p class="updateBox__p">
+                Last time updated:
+                <strong>13.05.2019.</strong>
+              </p>
+              <a class="updateBox__a" href="#">Update Now</a>
+            </div>
+          </div>
+          <div class="user__info">
+            <p class="user__info-data">
+              Current net worth <span>$600.500</span>
+            </p>
+            <p class="user__info-data">
+              Net Personal Income <span>$100.000</span>
+            </p>
+          </div>
+          <div class="alertBox">
+            <p class="alertBox__p">
+              <span>👏Congratulations!</span>&nbsp;At age 80 you will have
+              savings balance of $1.296.043.
+            </p>
+            <a class="button" href="#">Check out more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
